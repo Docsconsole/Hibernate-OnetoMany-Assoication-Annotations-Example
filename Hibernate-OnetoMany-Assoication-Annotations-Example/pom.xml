@@ -4,10 +4,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.docsconsole.tutorials.hibernate5</groupId>
-	<artifactId>Hibernate-OnetoMay-Assoication-Annotations-Example</artifactId>
+	<artifactId>Hibernate-OnetoMany-Assoication-Annotations-Example</artifactId>
 	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Hibernate-OnetoOne-Association-Annotation-Example Maven Webapp</name>
+	<name>Hibernate OnetoMany Assoication Annotations Example</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -55,7 +55,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
-				<version>1.1.1</version>
+				<version>1.4.0</version>
 				<executions>
 					<execution>
 						<phase>test</phase>
@@ -63,7 +63,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>com.docsconsole.tutorials.hibernate5.MainClient</mainClass>
+							<mainClass>com.docsconsole.tutorials.hibernate5.client.MainClient</mainClass>
 							<arguments>
 								<argument>arg0</argument>
 								<argument>arg1</argument>
