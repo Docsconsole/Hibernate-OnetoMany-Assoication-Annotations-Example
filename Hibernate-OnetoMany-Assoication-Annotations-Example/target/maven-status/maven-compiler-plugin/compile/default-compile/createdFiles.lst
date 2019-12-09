@@ -1,0 +1,4 @@
+com\docsconsole\tutorials\hibernate5\entity\Book.class
+com\docsconsole\tutorials\hibernate5\util\HibernateUtil.class
+com\docsconsole\tutorials\hibernate5\entity\Author.class
+com\docsconsole\tutorials\hibernate5\MainClient.class
