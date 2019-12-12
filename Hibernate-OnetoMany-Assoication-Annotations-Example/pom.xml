@@ -68,6 +68,7 @@
 								<argument>arg0</argument>
 								<argument>arg1</argument>
 							</arguments>
+							<cleanupDaemonThreads>false</cleanupDaemonThreads>
 						</configuration>
 					</execution>
 				</executions>

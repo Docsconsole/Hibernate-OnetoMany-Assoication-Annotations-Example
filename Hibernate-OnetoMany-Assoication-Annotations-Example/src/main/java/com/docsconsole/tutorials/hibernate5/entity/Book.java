@@ -1,7 +1,5 @@
 package com.docsconsole.tutorials.hibernate5.entity;
 
-import java.math.BigDecimal;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,9 +16,9 @@ public class Book {
 	public Book() {
 	}
 
-	public Book( String authorName, Double bookPrice, Author author) {
+	public Book(String bookName, Double bookPrice, Author author) {
 
-		this.authorName = authorName;
+		this.bookName = bookName;
 		this.bookPrice = bookPrice;
 		this.author = author;
 
@@ -32,7 +30,7 @@ public class Book {
 	private Long bookId;
 
 	@Column(name = "BOOK_NAME")
-	private String authorName;
+	private String bookName;
 
 	@Column(name = "BOOK_PRICE")
 	private Double bookPrice;
@@ -49,12 +47,12 @@ public class Book {
 		this.bookId = bookId;
 	}
 
-	public String getAuthorName() {
-		return authorName;
+	public String getBookName() {
+		return bookName;
 	}
 
-	public void setAuthorName(String authorName) {
-		this.authorName = authorName;
+	public void setBookName(String bookName) {
+		this.bookName = bookName;
 	}
 
 	public Double getBookPrice() {
